@@ -7,7 +7,7 @@ $salary_regex = "/^\d+$/";
 $employee_id_regex = "/^[a-zA-Z0-9]+$/";
 $error = "";
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-
+    echo "<h1> Udit Vegad(216090307001)</h1><br>";
     $name = $_POST["name"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
@@ -40,4 +40,3 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         echo $error;
     }
 }
-?>
