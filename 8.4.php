@@ -1,3 +1,4 @@
+<h1>Register Page</h1>
 <form action="8.4-2.php" method="POST">
     <lable>UserName:</lable>
     <input type="text" name="uname" required>

@@ -1,3 +1,4 @@
+<h1>Register Page</h1>
 <form action="8.4-3.php" method="POST">
     <lable>Password:</lable>
     <input type="password" name="pass" required>
