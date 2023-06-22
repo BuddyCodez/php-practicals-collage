@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 ?>
 
 <!-- Display employee information -->
+<h1 style="color:gray;" align="start">Udit Vegad(216090307001)</h1>
 <h1>Change Password</h1>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     <input type="text" name='name' value="<?php echo $name; ?>" readonly>

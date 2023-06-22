@@ -14,6 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     header("Location: 10.5.php");
 }
 ?>
+<h1 style="color:gray;" align="start">Udit Vegad(216090307001)</h1>
 <h1>Delete Employees</h1>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     <select name="employee">
